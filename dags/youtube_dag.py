@@ -26,8 +26,3 @@ with DAG(
                      source /home/mombasa/projects/youtubue_analytics_dashboard/venv/bin/activate &&
                      python3 /home/mombasa/projects/youtubue_analytics_dashboard/controller.py
                     """)
-properties = {
-    "user": "admin",
-    "password": "admin",
-    "driver": "org.postgresql.Driver"
-}
