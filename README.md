@@ -1,9 +1,11 @@
 📊 YouTube Analytics Dashboard (Grafana Edition)
+
 This project is a YouTube Analytics Dashboard I built to help analyze and visualize how LuxDev YouTube channel is performing over time. It pulls data directly from the YouTube Data API and presents key metrics in an interactive, easy-to-understand way using Grafana.
 
 The idea behind this project was to help the creators know key metrics at a glance
 
 🔍 What This Dashboard Can Do
+
 Track how your channel has been grown over time
 
 Highlight videos that are the most engaging with their audience
@@ -12,6 +14,7 @@ Show best days and time to post video
 
 
 🛠️ Tools and Tech Used
+
 Here's a quick overview of the tools that power the dashboard:
 
 Python – Core language for backend and data handling
@@ -25,6 +28,7 @@ PostgreSQL – Stores the processed data
 Grafana – Used to build the dashboard interface
 
 🗂️ Project Structure
+
 Here’s how the project is organized:
 
 
