@@ -3,12 +3,10 @@ from airflow.operators.bash import BashOperator
 from datetime import datetime, timedelta
 
 default_args = {
-    "owner": "Batru",
+    "owner": "Amin",
     "depends_on_past": False,
     "retries": 1,
     "retry_delay": timedelta(minutes=1),
-    "email": ["batrudin10@gmail.com"],
-    "email_on_failure": True,
     "start_date": datetime(2025, 4, 23)
 }
 
